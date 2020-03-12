@@ -1,0 +1,174 @@
+@media screen and (max-width: 640px) {
+    body {
+        font-size: 15px; line-height: 20px;
+    }
+    h1 {
+        font-size: 10px; line-height: 4px; margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 22px; line-height: 25px; margin-bottom: 5px;
+    }
+    .column {
+        width: 100%;
+    }
+    .column.column-1 {
+        padding-right: 0px;
+    }
+    .column.column-2 {
+        padding-left: 0px;
+    }
+    main #projects-home article .logo,
+    main #projects article .logo {
+        background-size: 100px;
+    }
+    main #clients {
+        padding-top: 20px;
+    }
+    main #clients #client-list .client {
+        width: calc(100% / 5); padding-top: calc(100% / 5);
+        border-bottom: 1px solid #0f0f1e;
+    }
+    header nav #menu #ti-menu {
+        width: 100%;
+    }
+    header nav #menu #bg-menu {
+        display: none;
+    }
+    .iScrollVerticalScrollbar {
+        width: 4px;
+    }
+    main #clients.clients-home #client-list .client.client-6,
+    main #clients.clients-home #client-list .client.client-7,
+    main #clients.clients-home #client-list .client.client-8 {
+        display: none;
+    }
+    main #clients.clients-clients #client-list .client.client-16 {
+        display: none;
+    }
+    header nav #menu #ti-menu #contact,
+    header nav #menu #ti-menu {
+        padding-left: 20px;
+    }
+    main #home #intro-video video {
+        opacity: 0.3;
+    }
+    main #home.watching #intro-video video {
+        opacity: 0.3;
+    }
+    main #home.watching #logo {
+        opacity: 1;
+    }
+    main #home.watching #small-logo {
+        opacity: 0;
+    }
+    .hideonmobile {
+        display: none;
+    }
+    main #projects-home article .background,
+    main #projects-home article video,
+    main #projects article .background,
+    main #projects article video  {
+        opacity: 0.4; transform: scale(1.2);
+    }
+    main #contact {
+        background-position: right -515px top; min-height: 450px;
+    }
+    .vt-padding {
+        padding: 80px 0;
+    }
+    @-webkit-keyframes pulse {
+      0% { box-shadow:0 0 8px #44DBF1, inset 0 0 8px #44DBF1; opacity: 0; width: 5px; height: 5px; right: 160px; top: 270px;  }
+      50% { box-shadow:0 0 16px #44DBF1, inset 0 0 14px #44DBF1; opacity: 1; width: 20px; height: 20px; right: 155px; top: 265px; }
+      100% { box-shadow:0 0 8px #44DBF1, inset 0 0 8px #44DBF1; opacity: 0; width: 5px; height: 5px; right: 160px; top: 270px; }
+    }
+    main #contact #marker {
+        right: 155px; top: 265px;
+    }
+
+    main #services #services-list .service {
+        width: 100%; padding-right: 0px;
+    }
+    main #services #services-list .service .service-image {
+        width: 20%; padding-top: 20%;
+    }
+    main #services #services-list .service .service-txt {
+        width: 80%;
+    }
+    main #clients #people-list .people {
+        width: calc(100% / 5); padding-top: calc(100% / 5);
+    }
+    main #clients #people-list .people-6,
+    main #clients #people-list .people-7,
+    main #clients #people-list .people-8 {
+        display: none;
+    }
+    #aboutus {
+        padding-top: 40px;
+    }
+    main #project-details #project-webpreview #browser-preview {
+        border-radius: 3px;
+    }
+    main #project-details #project-webpreview #browser-preview #br-controls,
+    main #project-details #project-webpreview #browser-preview #br-controls #br-co-cmm,
+    main #project-details #project-webpreview #browser-preview #br-controls #br-url {
+        height: 35px;
+    }
+    main #project-details #project-webpreview #browser-preview #br-controls #br-co-cmm {
+        padding: 12px 0 0 12px; width: 80px;
+    }
+    main #project-details #project-webpreview #browser-preview #br-controls #br-url #br-url-txt {
+        margin-top: 2px; font-size: 12px; background-size: 10px; padding-left: 19px; margin-left: 10px;
+    }
+    main #project-details #project-webpreview #browser-preview #br-controls #br-url #br-url-refresh,
+    main #project-details #project-webpreview #browser-preview #br-controls #br-url #br-url-bookmark,
+    main #project-details #project-webpreview #browser-preview #br-controls #br-menu {
+        display: none;
+    }
+    main #project-details .section-down {
+        height: 50px;
+    }
+    main #project-details #project-extra #project-extra-left,
+    main #project-details #project-summary #project-summary-right {
+        width: 100%; z-index: 500;
+    }
+    main #project-details #project-extra #project-extra-right,
+    main #project-details #project-summary #project-summary-left {
+        position: absolute; opacity: 0.1;
+    }
+    main #project-details #project-webpreview #browser-preview #br-controls #br-url {
+        width: calc(100% - 100px); border-right: none;
+    }
+
+    main #project-details #project-webpreview #browser-preview.light #br-controls #br-url {
+        border-right: none;
+    }
+    main #project-details #project-pictures #pictures-list .pl-picture {
+        width: 50%; padding-top: 50%;
+    }
+    main #project-details #project-summary #project-summary-right,
+    main #project-details #project-extra #project-extra-left {
+        padding: 100px 0 120px 0;
+    }
+    main #project-details #summary-mnm {
+        left: 50px;
+    }
+    main #project-details #extra-undercover img {
+        width: 420px;
+    }
+    main #project-details #project-webpreview #browser-preview #br-preview {
+        top: 35px;
+    }
+    main #project-details #project-webpreview #browser-preview {
+        padding-top: calc(56.25% + 35px);
+    }
+    #project-details h3 {
+        font-size: 26px;
+    }
+    main #project-details #project-webpreview,
+    main #project-details #project-pictures {
+        padding-top: 40px;
+    }
+    main #services #services-list .service .service-txt h3 {
+        margin-top: 10px;
+    }
+}

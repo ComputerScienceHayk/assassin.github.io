@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+
+/*########################################
+/#####RESET ELEMENTS
+########################################*/
+* {
+  margin: 0; padding: 0; /* box-sizing: border-box; */
+  transition: all 0.5s ease; -webkit-transition: all 0.5s ease;
+}
+ul {
+  list-style: none; list-style-type: none;
+}
+ul li {
+  float: left;
+}
+img, fieldset {
+  border: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; margin-bottom: 10px;
+}
+/* html {
+    --vh: 6.35px; -webkit-box-sizing: border-box; box-sizing: border-box; height: 100%;
+} */
+
+/*########################################
+/#####FONTS
+########################################*/
+
+
+
+/*########################################
+/#####MAIN ELEMENTS
+########################################*/
+::selection, ::-moz-selection {
+
+}
+
+body {
+    background: black;font-family: 'Avenir'; font-weight: 200;
+    line-height: 25px; font-size: 18px; color: rgba(255,255,255,0.83); /* height: 100vh; */
+    display: -webkit-box; display: -ms-flexbox; display: flex; display: -webkit-box;
+    isplay: -ms-flexbox; display: flex; -webkit-box-orient: vertical;
+    -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column;
+    min-height: 100%; margin: 0; text-rendering: optimizeLegibility; -webkit-text-decoration-skip: objects;
+    text-decoration-skip: objects; -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent;
+     width: 100%; position: fixed; width: 100%;
+}
+.content {
+    max-width: 980px; padding: 0px 30px; margin: auto; width: 100%;
+    position: relative; z-index: 100;
+}
+.clear {
+    width: 100%; clear: both; display: block; float: left;
+}
+.input {
+    float: left; width: 100%;
+}
+.content-center {
+    max-width: 90%;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* border: solid 1px #847005; */
+    background: url(../images/creed_bg.webp) center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    background-repeat: no-repeat;
+}
+.about-ac {
+  color: #7f6e13;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+.vt-center-wrap {
+    display: inline-table; width: 100%; height: 100%;
+}
+.vt-center-wrap .vt-center {
+    display: table-cell; width: 100%; height: 100%;
+    vertical-align: middle;
+}
+.vt-padding {
+    padding: 150px 0;
+}
+.column {
+    float: left; width: 50%;
+}
+.column.column-1 {
+    padding-right: 20px;
+}
+.column.column-2 {
+    padding-left: 20px;
+}
+h1 {
+    font-family: 'Avenir'; font-weight: 500; font-size: 12px;
+    color: #44DBF1; line-height: 7px; text-transform: uppercase;
+}
+h2 {
+    font-family: 'Avenir'; font-size: 32px;
+    color: #FFFFFF; line-height: 1.2em; font-weight: 800;
+}
+h3 {
+    font-family: 'Avenir'; font-weight: 100; font-size: 22px;
+    color: #ffffff; line-height: 7px; text-transform: lowercase;
+    border-bottom: 4px solid #44DBF1; padding-bottom: 15px; float: left;
+}
+#project-details h3 {
+    font-family: 'Avenir'; font-size: 32px; color: #FFFFFF;
+    line-height: 1.2em; font-weight: 800; text-transform: none;
+    border-bottom: none; padding-bottom: 0px; float: none;
+}
+strong {
+    font-weight: 800;
+}
+hr {
+    margin: 20px auto; border: none; width: 100%; height: 1px; background: #000;
+}
+p {
+    display: block; margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.description a {
+    color: #FFF; text-decoration: underline;
+}
+span.small-description {
+    float: left; width: 100%; font-size: 14px;
+    line-height: 1.4em; color: #ffffff9e;
+}
+@-moz-keyframes scroll {
+  0% { top: 5px; opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { top: 15px; opacity: 0; }
+}
+@-webkit-keyframes scroll {
+  0% { top: 5px; opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { top: 15px; opacity: 0; }
+}
+@-o-keyframes scroll {
+  0% { top: 5px; opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { top: 15px; opacity: 0; }
+}
+@keyframes scroll {
+  0% { top: 5px; opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { top: 15px; opacity: 0; }
+}
+@-moz-keyframes arrow-down {
+  0% { margin-top: 0px; } 100% { margin-top: 10px; }
+}
+@-webkit-keyframes arrow-down {
+  0% { margin-top: 0px; } 100% { margin-top: 10px; }
+}
+@-o-keyframes arrow-down {
+  0% { margin-top: 0px; } 100% { margin-top: 10px; }
+}
+@keyframes arrow-down {
+  0% { margin-top: 0px; } 100% { margin-top: 10px; }
+}
+#scroll-to-explore {
+    z-index: 5000; width: 100px; margin: auto; color: #FFF;
+    position: absolute; bottom: 30px; left: 0px; right: 0;
+}
+#scroll-to-explore .scroll-info {
+    z-index: 19; width: 108px; min-height: 15px; background-color: transparent;
+    text-align: center; font-size: 10px; color: #FFF; line-height: 16px;
+    font-weight: 300; position: relative; text-transform: uppercase;
+}
+#scroll-to-explore .mouse-down {
+    border: 2px solid #FFF; border-radius: 12px; height: 35px;
+    position: relative; background: transparent; width: 20px; margin: 0 auto;
+    margin-top: 5px;
+}
+#scroll-to-explore .mouse-down .mouse-wheel {
+    position: relative; left: 0%; transition: opacity 0.5s; margin-bottom: 35px;
+}
+#scroll-to-explore .mouse-down .mouse-wheel:before,
+#scroll-to-explore .mouse-down .mouse-wheel:after {
+    content: ''; background: #FFF; border-radius: 50%; margin-left: -2px;
+    height: 4px; position: absolute; top: 5px;
+    transition: top 0.5s, height 0.5s, opacity 0.5s; width: 4px;
+}
+#scroll-to-explore .mouse-down .mouse-wheel:after {
+    animation: scroll 1.5s infinite ease-in-out;
+}
+#scroll-to-explore .mouse-down .mouse-wheel:before {
+    animation: scroll 1.5s 0.75s infinite ease-in-out;
+}
+#scroll-to-explore .mouse-down .arrow-down {
+    animation: arrow-down 0.6s infinite alternate ease-in-out;
+    border-bottom: 2px solid #FFF; border-right: 2px solid #FFF;
+    display: block; height: 8px; margin: 0 auto; transform: rotate(45deg);
+    transition: opacity 0.5s; width: 8px; opacity: 1; position: absolute; left: 0px; right: 0;
+}
